@@ -1,9 +1,12 @@
+# CHORAS ASSA Hackathon
+
 Hi all, and welcome to the repository specifically created for day 5 of the ASSA Open Research Software school! This readme contains instructions on how to install and run CHORAS on your machine.
 
 ## Setup instructions (please note that your computer might restart during this process!!)
 
 1. Download [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-   _(If you’re on Windows and you’re unsure whether you need amd64 or arm64, go to Settings → System → About. It will say "x64-based processor" for AMD, or "ARM-based processor" for an ARM chip.)_
+
+  _(If you’re on Windows and you’re unsure whether you need amd64 or arm64, go to Settings → System → About. It will say "x64-based processor" for AMD, or "ARM-based processor" for an ARM chip.)_
 
 - Install using the default settings.
 - Open Docker Desktop (the application must be running for CHORAS to work).

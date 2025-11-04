@@ -1,24 +1,54 @@
-# CHORAS ASSA Hackathon
+# CHORAS ASSA Workshop
 
-Hi all, and welcome to the repository specifically created for day 5 of the ASSA Open Research Software school! This readme contains instructions on how to install and run CHORAS on your machine.
+👋 Hi all, and welcome to the repository specifically created for day 5 of the ASSA Open Research Software school! This readme contains information on the workshop.
 
 ## Setup
 
-Follow the steps in [setup_instructions](./setup_instructions.md) to install and run CHORAS.
+🐒  Clone the [CHORAS repository](https://github.com/choras-org/choras) and follow the steps in the readme to install and run CHORAS.
 
 ## Task
 
-You will be modelling *this* room (yes -- the one you are currently in :) )
+Your task is to model *this* room (yes -- the one you are currently in :) )
 
-... work in progress
+🎙️ Later today we'll do a measurement and your goal is to set up a simulation which is as close as possible to the measurement! 
 
+🏠 We provide two geometries
+- this room simplified to a shoebox [(./Geometries/Room2215_simple.obj)](./Geometries/Room2215_simple.obj)
+- the same but with the acoustic ceiling [(./Geometries/Room2215_withAbs.obj)](./Geometries/Room2215_withAbs.obj)
+
+Your job is to tweak the settings such that you get as close as possible to the measurement.
 
 ## Deliverables
 
-A GitHub repository 
+Create a new repository in the [choras-org GitHub organisation](https://github.com/choras-org/). The name should be your **team name** :)
 
-... work in progress
+The repository should contain the following:
+
+&nbsp;&nbsp;&nbsp;&nbsp;🎧  **Impulse response** from DE (.wav)
+
+&nbsp;&nbsp;&nbsp;&nbsp;📊  **T30** results from DE in (.csv)
+
+&nbsp;&nbsp;&nbsp;&nbsp;5️⃣  Frequencies of **first 5 modes** in (.csv)
+
+&nbsp;&nbsp;&nbsp;&nbsp;🫱🏻‍🫲🏾  Document (.pdf / .docx) with:
+
+- **3 proposals** for improving CHORAS (out of the box)
+- Functionality **issues** you found
+
+## Evaluation
+
+How do we decide who is closest?
+
+🎙️  At the end of the day we'll do an IR measurement which will be compared to your simulation
+
+&nbsp;&nbsp;&nbsp;&nbsp;🧮  DE IR: **RMS** of the T30 of your simulation vs. measurement
+
+&nbsp;&nbsp;&nbsp;&nbsp;🙋‍♀️  DE IR: silent disco headsets + **your votes**!
+
+&nbsp;&nbsp;&nbsp;&nbsp;🧮  DG modes: **RMS** of your frequencies vs. our measurement
 
 ## Useful links
 
 - [CHORAS main repo](https://github.com/choras-org/choras)
+- [Absorption coefficients](https://www.acoustic.ua/st/web_absorption_data_eng.pdf)
+- [Geometries](./Geometries/)

@@ -32,8 +32,8 @@ The repository should contain the following:
 
 4. 🫱🏻‍🫲🏾  Document (.pdf / .docx) with:
 
-  - **3 proposals** for improving CHORAS (out of the box)
-  - Functionality **issues** you found
+    - **3 proposals** for improving CHORAS (out of the box)
+    - Functionality **issues** you found
 
 ## Evaluation
 
